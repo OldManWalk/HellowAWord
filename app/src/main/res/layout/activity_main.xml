@@ -168,6 +168,28 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="实验5" />
+    <Button
+        android:id="@+id/bt_six"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="实验6" />
+    <Button
+        android:id="@+id/bt_seven"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="实验7" />
+
+    <Button
+        android:id="@+id/bt_eight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="实验8" />
+    <Button
+        android:id="@+id/bt_nigh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="实验9" />
+
 
 
 </LinearLayout>

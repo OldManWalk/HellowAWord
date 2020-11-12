@@ -95,10 +95,10 @@ public class TwoActivity extends Activity {
             public void onCheckedChanged(CompoundButton buttonView,boolean isChecked) {
                 if (isChecked) {
                     // 开启switch，
-                    DASIMA.setImageResource(R.drawable.dma);
+                    DASIMA.setImageResource(R.drawable.dark);
                 } else {
                     // 关闭swtich，设置提示信息
-                    DASIMA.setImageResource(R.drawable.lma);
+                    DASIMA.setImageResource(R.drawable.light);
 
                 }
             }

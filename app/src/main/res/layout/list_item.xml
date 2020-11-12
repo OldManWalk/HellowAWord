@@ -18,10 +18,10 @@
                 android:layout_height="121dp"
                 android:layout_alignParentLeft="true"
                 android:layout_marginLeft="0dp"
-                android:paddingLeft="20dp" />
+                android:paddingLeft="10dp" />
 
        <TableLayout
-           android:layout_width="312dp"
+           android:layout_width="280dp"
            android:layout_height="wrap_content">
 
            <TextView
@@ -30,7 +30,7 @@
                android:layout_height="52dp"
                android:layout_marginTop="20dp"
                android:textColor="@color/colorPrimary"
-               android:textSize="20sp"/>
+               android:textSize="10sp"/>
 
            <TextView
                android:id="@+id/desc"

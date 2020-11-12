@@ -19,6 +19,13 @@
         <activity android:name=".TwoActivity"></activity>
         <activity android:name=".ThreeActivity"></activity>
         <activity android:name=".FourActivity"></activity>
+        <activity android:name=".fiveActivty"></activity>
+        <activity android:name=".SixActivity"></activity>
+        <activity android:name=".SixActivity02"></activity>
+        <activity android:name=".SevenActivity"></activity>
+        <activity android:name=".SevenActivity02"></activity>
+        <activity android:name=".NighActivity"></activity>
+        <activity android:name=".NighActivity02"></activity>
     </application>
 
 </manifest>

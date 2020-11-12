@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="计算标准体重" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="您的性别：" />
+            <RadioGroup
+                android:id="@+id/sexual"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <RadioButton
+                    android:id="@+id/nan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="男"/>
+                <RadioButton
+                    android:id="@+id/nv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="女"/>
+            </RadioGroup>
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="您的身高：" />
+           <EditText
+               android:id="@+id/heigh"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"/>
+        </TableRow>
+        <Button
+            android:id="@+id/sendto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="开始计算"/>
+
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
