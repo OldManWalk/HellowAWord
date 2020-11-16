@@ -189,6 +189,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="实验9" />
+    <Button
+        android:id="@+id/bt_ten"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="实验10" />
 
 
 
