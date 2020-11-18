@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/LinearLayout1"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:orientation="vertical"
-    tools:context=".MainActivity" >
+    tools:context=".MainActivity">
+
 
     <TextView
         android:background="@color/colorPrimary"
@@ -152,17 +154,29 @@
     </RelativeLayout>
 
 
-    <Button
-    android:id="@+id/bt_next"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:text="下一个实验" />
 
-    <Button
-    android:id="@+id/bt_four"
+<TableLayout
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:text="实验4" />
+    android:layout_height="wrap_content">
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/bt_next"
+            android:layout_width="196dp"
+            android:layout_height="wrap_content"
+            android:text="下一个实验" />
+
+        <Button
+            android:id="@+id/bt_four"
+            android:layout_width="221dp"
+            android:layout_height="wrap_content"
+            android:text="实验4" />
+</TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
     <Button
         android:id="@+id/bt_five"
         android:layout_width="match_parent"
@@ -173,6 +187,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="实验6" />
+    </TableRow>
     <Button
         android:id="@+id/bt_seven"
         android:layout_width="match_parent"
@@ -194,7 +209,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="实验10" />
-
+    <Button
+        android:id="@+id/bt_ele"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="实验11" />
+</TableLayout>
 
 
 </LinearLayout>

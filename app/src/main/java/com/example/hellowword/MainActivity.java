@@ -40,6 +40,7 @@ public class MainActivity extends Activity {
         Button bt_eight = findViewById(R.id.bt_eight);
         Button bt_nigh = findViewById(R.id.bt_nigh);
         Button bt_ten = findViewById(R.id.bt_ten);
+        Button bt_ele = findViewById(R.id.bt_ele);
         //单选按钮组绑定监听器
         rg_login.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override
@@ -112,6 +113,13 @@ public class MainActivity extends Activity {
             @Override
             public void onClick(View v) {
                 Intent intend=new Intent(MainActivity.this,TenActivity.class);
+                startActivity(intend);
+            }
+        });
+        bt_ele.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intend=new Intent(MainActivity.this,EleActivity.class);
                 startActivity(intend);
             }
         });
