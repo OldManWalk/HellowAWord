@@ -4,21 +4,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-    <TableRow
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        tools:ignore="MissingConstraints">
 
-        <TextView
-            android:id="@+id/tv_Name"
-            android:layout_width="176dp"
+        <TableRow
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="姓名" />
+            tools:ignore="MissingConstraints">
+            <TextView
+                android:id="@+id/tv_Name"
+                android:layout_width="176dp"
+                android:layout_height="wrap_content"
+                android:text="@string/Studentname" />
 
-        <TextView
-            android:id="@+id/tv_Phone"
-            android:layout_width="258dp"
-            android:layout_height="wrap_content"
-            android:text="电话号码" />
-    </TableRow>
+            <TextView
+                android:id="@+id/tv_Phone"
+                android:layout_width="258dp"
+                android:layout_height="wrap_content"
+                android:text="@string/StudentPhone" />
+        </TableRow>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

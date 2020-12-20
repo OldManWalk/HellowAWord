@@ -25,7 +25,7 @@ public class AddActivity extends AppCompatActivity {
                 String nameStr = et_name.getText().toString();
                 String phoneStr = et_phone.getText().toString();
                 // 数据库表执行插入语句
-               dbHelper.getReadableDatabase().execSQL("insert into contact values(null , ? , ?)",
+                dbHelper.getReadableDatabase().execSQL("insert into contact values(null , ? , ?)",
                         new String[]{nameStr, phoneStr});
                 finish();
             }

@@ -76,4 +76,5 @@ public class TenActivity extends AppCompatActivity {
         // 退出程序时关闭MyDatabaseHelper里的SQLiteDatabase
         dbHelper.close();
     }
+
 }

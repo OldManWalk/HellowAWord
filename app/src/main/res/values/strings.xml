@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">fegame</string>
     <string name="quickreg">快速注册</string>
-
+    <string name="Studentname">学生姓名</string>
+    <string name="StudentPhone">学生电话</string>
 </resources>
